@@ -1,9 +1,9 @@
 #!/bin/sh
 
 ########## CONFIG #########
-SNIFF_PIPE=/tmp/sniff
-ROUTER_IP=1.0.0.1
-ROUTER_IFACE=br-lan
+SNIFF_PIPE="/tmp/sniff"
+ROUTER_IP="1.0.0.1"
+ROUTER_IFACE="br-lan"
 ###########################
 
 if [ -f $PIPE ];
